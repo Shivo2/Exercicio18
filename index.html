@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarroNoBrilho</title>
+    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    
+  </head>
+  <body>
+
+    <header>
+      <div id="grafico-1"> 
+        <img src="./imagens/logo.car.jpg" alt="logocar">
+      </div>
+    
+    </header>
+
+    
+    
+    <section class="container">
+
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="./imagens/polimento.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagens/volante.jpg" alt="Foto de Marta Branco no Pexels">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h2>Polimento Cristalizado</h2>
+          <h5>O polimento cristalizado é um procedimento estético automotivo que serve para renovar a pintura do carro, removendo imperfeições e deixando-o mais brilhante: 
+            Remove arranhões, manchas e marcas de redemoinho 
+            Dá mais durabilidade à pintura 
+            Protege contra chuva ácida e raios UV.
+            Previne que a cor original do carro seja danificada 
+            O polimento cristalizado é feito com a aplicação de uma resina que cria uma camada protetora na pintura. O serviço deve ser feito por profissionais especializados, com produtos adequados para a cor e pintura do carro. 
+            </h5>
+         </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="./imagens/pexels-marta-branco-1194713.jpg" >
+        </div>
+      </div>
+
+      <h2>Habilidades</h2>
+      <div class="row">
+        <div class="col">
+          
+          <div class="card" style="width: 18rem;">
+            <img src="./imagens/Polivermelho.png"card-img-top alt="polimento">
+            <div class="card-body">
+              <h5 class="Serviços">Serviços</h5>
+              <p class="card-text">Clique aqui para saber qual serviço se adequa a sua necessidade.</p>
+              <a class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#modal-1">Acesso Serviços</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./imagens/Produtos.png" class="card-img-top" alt="produtos">
+            <div class="card-body">
+              <h5 class="Produtos">Produtos para seu carro</h5>
+              <p class="card-text">Temos o produto perfeito para o conforto de seu carro</p>
+              <a class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#modal-2">Acesse Produtos</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./imagens/seguradora.png" class="card-img-top" alt="seguradora">
+            <div class="card-body">
+              <h5 class="seguro">Seguradoras</h5>
+              <p class="card-text">Verifique se atendemos sua Seguradora.</p>
+              <a class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#modal-3">Consulta</a>
+            </div>
+          </div> 
+
+            <div class="modal fade" id="modal-1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                  <h5 class="modal-title">Tabela de Valores</h5>
+                  <button class="btn-close" data-bs-dismiss="modal"aria-label="close"></button></div>
+
+                  <div class="modal-body">
+                  <h6>Valor sujeita a alteração</h6>
+                  <table class="table table-hover table-striped">
+                    <thead>
+                    <td><h6>Categoria</h6></td>
+                      <td>Polimento com proteção</td>
+                      <td>Cristalização</td>
+                      <td>Pintura Automotiva</td>
+                    </thead>
+                    <tbody>
+                                      
+                    <tr>
+                      <td>Carro pequeno</td>
+                      <td>400,00</td>
+                      <td>+100,00</td>
+                      <td>3000,00</td>
+                      </tr>
+                      <tr>
+                        <td>Carro Grande</td>
+                        <td>600,00</td>
+                        <td>+150,00</td>
+                        <td>4500,00</td>
+                      </tr>
+                      <tr>
+                        <td>Vans, utilitários</td>
+                        <td>850,00</td>
+                        <td>+200,00</td>
+                        <td>5000,00</td>
+                      
+                      </tr>
+                    </tbody>
+                  </table>
+</div>  
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+            </div>
+          </div>
+
+ 
+        
+      </div>
+
+      <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Produtos para seu carro</h5>
+                  <button class="btn-close" data-bs-dismiss="modal"aria-label="close"></button></div>
+
+                  <div class="modal-body">
+                    <h6>Consultar Estoque</h6>
+                    <table class="table table-hover table-striped">
+                    <thead>
+                      <td>Som Automotivos</td>
+                      <td>Peliculas de Vidro</td>
+                      <td>Multimidia</td>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Consultar valores</td>
+                        <td>Consultar valores</td>
+                        <td>Consultar valores</td>
+                      </tr>
+
+                    </tbody>
+                      </table>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                    </div>
+
+                    
+
+
+                  </div>
+
+
+                
+            </div>
+          </div>
+        </div>
+           
+
+        <div class="modal fade" id="modal-3">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Seguradoras veicular</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"aria-label="close"></button></div>
+  
+                    <div class="modal-body">
+                      <h6>Consultar os serviços que sua Seguradora oferece</h6>
+                      <table class="table table-hover table-striped">
+                      <thead>
+                        <td>Mapfre</td>
+                        <td>Azul Seguros</td>
+                        <td>HDI seguros</td>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Consultar Serviços</td>
+                          <td>Consultar Serviços</td>
+                          <td>Consultar Serviços</td>
+                        </tr>
+  
+                      </tbody>
+                        </table>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                      </div>
+  
+                      
+  
+  
+                    </div>
+  
+  
+                  
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+        
+        </div>
+
+      <h2>Nossos Serviços</h2>
+      <div class="row">
+        <div class="col">
+          <div class="accordion" id="meuacordeon">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h5>PRODUTOS</h5>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+                <div class="accordion-body">
+                  <p>Trabalhamos com Produtos de alta qualidade proporcionando Brilho e Proteção</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne"> 
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                 <h5>GARANTIAS</h5>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+                <div class="accordion-body">
+                  <p>A Cristalização e espelhamento protege a pintura do carro por até 2 anos, podendo agendar uma manutenção depois de 12 meses.</p>
+                  
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <p class="text-center">&copy; 2024 - Desenvolvido por Silvio</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script>
+      console.log('hello world')
+    </script>
+  </body>
+</html>
